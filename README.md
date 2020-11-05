@@ -9,7 +9,7 @@ A sample input is provided by [sample_input](/sample_input).
 
 ## Guidelines and Tips
 * Please do **NOT** modify the method declarations in the Solution class and the package name. You can add other classes to the package if needed.
-* You should read data from standard input and write your answer to standard output. We use similar methods as most online judge systems to check your solutions. We use [pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) to send input to your program and send your output to our judge system. If you can pass the [a plus b problem](https://dmoj.ca/problem/aplusb}) on any online judge, you will be fine with the input and the output. Or you can check if your code can get correct input and give output using pipes by the following command.
+* You should read data from standard input and write your answer to standard output. We use similar methods as most online judge systems to check your solutions. We use [pipelines](https://en.wikipedia.org/wiki/Pipeline_(Unix)) to send input to your program and send your output to our judge system. If you can pass the [a plus b problem](https://dmoj.ca/problem/aplusb) on any online judge, you will be fine with the input and the output. Or you can check if your code can get correct input and give output using pipes by the following command.
 
 on Linux/macOS
 ```
