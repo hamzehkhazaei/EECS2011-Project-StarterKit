@@ -1,5 +1,5 @@
 # EECS2011-Project-StarterKit
-This repository provides the starter kit for the project of EECS2011A-F20: Fundamentals of Data Structures. 
+This repository provides the starter kit for the project of EECS2011A-F2020: Fundamentals of Data Structures. 
 
 You will create a Java package named eecs2011.project. The [Solution](/src/eecs2011/project/Solution.java) class is where you implement your solutions.
 
