@@ -1,4 +1,4 @@
-# EECS2011A Fundamentals of Data Structures: Project Starter Kit
+# EECS2011A-Fundamentals of Data Structures: Project Starter Kit
 This repository provides the starter kit for the EECS2011A course project. 
 
 You will create a Java package named ``eecs2011.project``. The [Solution.java](/src/eecs2011/project/Solution.java) 
