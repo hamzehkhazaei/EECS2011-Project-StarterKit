@@ -2,7 +2,8 @@
 This repository provides the starter kit for the EECS2011A-F20: Fundamentals of Data Structures course project. 
 
 You will create a Java package named ```eecs2011.project```. The [Solution.java](/src/eecs2011/project/Solution.java) 
-class is where you implement your solutions.
+class is where you implement your solutions. Note that you can define as many as classes you want in the ``eecs2011.project``
+package to implement your project; the ``Solution.java`` exposes your implementation to the judge system.
 
 There is an example in the [Sample.java](/src/eecs2011/project/Sample.java) class showing **one possible way** to read input, 
 store data, and print answers using standard input and output. You are encouraged to implement your input/output/storage 
