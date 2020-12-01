@@ -23,4 +23,4 @@ For each question and each input, the judge system will instantiate your Solutio
 * (Windows) Task manager
 
 ## I just want to ask that the constraint which says that the execution time for each part should be less than 10 seconds does that mean the value of the last outpur in part 2 and in all the part should be less than 10 seconds.
-The limit (10s, 256MB) is imposed on your program. Your code will be interrupted and marked as 0 if it goes beyond the limit. The 10s limit has nothing to do with the total execution time of the application.
+The limit (10s, 256MB) is imposed on your program. Your code will be interrupted and marked as 0 if it goes beyond the limit. The 10s limit has nothing to do with the total execution time of the application workflow.
