@@ -13,3 +13,6 @@ A sample input is provided by [sample_input](/sample_input).
 
 ## More Information
 Please check the project description at [the course eClass](https://eclass.yorku.ca/eclass/mod/assign/view.php?id=348653).
+
+## Frequently Asked Questions
+Please check [FAQ.md](FAQ.md).
