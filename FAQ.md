@@ -17,7 +17,7 @@ For each question and each input, the judge system will instantiate your Solutio
 ## I was really confused by how can I get to know that how much time and memory is my function taking to get implemented, this might be a stupid question but I dont want to lose marks by not asking it
 * Estimate by the data structures and their sizes.
 * Use the performance profiler in IDE
-* (Linux) Find the PID of your program process, and get the memory usage by the vmpeak attribute in /proc/$pid
+* (Linux) Find the PID of your program process, and get the memory usage by the vmpeak attribute in /proc/$pid/status
 * Restrict the Java heap size
 * (Linux/macOS) top command
 * (Windows) Task manager
