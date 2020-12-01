@@ -5,6 +5,9 @@ You will need to read the input and write your answers using standard IO rather 
 ## If we are going to implement a data structure, we have to create/implement them from scratch? ex. are arrays, list etc allowed?
 When implementing your solutions, you may NOT use any Java built-in packages EXCEPT java.math, java.io, java.util.Scanner, and java.util.Iterator. All data structure and algorithm implementations should be your own or those taken from previous lectures/assignments/labs.
 
+## Grading critera regarding performance
+The grading criteria in terms of performance is not just based on the overall time complexity. We mainly focus on how you store/process the graph. The time complexity for reading the input does not matter that much. If you can achieve better time/space complexities for the graph storage and processing, please mention and explain them correctly in the report. Your solution will be considered to have better performance, and it will be reflected in the grade.
+
 ## Can we add methods to the solution class?
 Yes, you can add methods in the solution class if needed. Note that you may not modify the existing method declarations in the solution class.
 
