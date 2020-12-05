@@ -1,4 +1,17 @@
 # Frequently Asked Questions
+
+## How should I zip my source code?
+Zip your src directory (**include** the src folder). The directory structure in your source code zip file should look like this:
+
+```
+src
+└───eecs2011
+    └───project
+        │   Solution.java
+        │   foo.java
+        │   ...
+```
+
 ## Are the input and output coming from one file(the solution file) OR we can arrange it however we want?
 You will need to read the input and write your answers using standard IO rather than accessing a file. You should strictly follow the input and output format.
 
@@ -28,5 +41,5 @@ For each question and each input, the judge system will instantiate your Solutio
 ## I just want to ask that the constraint which says that the execution time for each part should be less than 10 seconds does that mean the value of the last outpur in part 2 and in all the part should be less than 10 seconds.
 The limit (10s, 256MB) is imposed on your program. Your code will be interrupted and marked as 0 if it goes beyond the limit. The 10s limit has nothing to do with the total execution time of the application workflow.
 
-## How should I zip my source code?
-Zip your src directory (include the src folder). Please also follow the instructions regarding deliverables in the project description. 
+## There are a few functions within my Graph class that throw exceptions. Am I allowed to add a throws clause to the method signature in the Solution class?
+You can add throws clauses to the method declaration in the Solution class. Please note that exception handling may impact the performance of your program.
