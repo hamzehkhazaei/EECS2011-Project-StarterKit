@@ -42,4 +42,4 @@ For each question and each input, the judge system will instantiate your Solutio
 The limit (10s, 256MB) is imposed on your program. Your code will be interrupted and marked as 0 if it goes beyond the limit. The 10s limit has nothing to do with the total execution time of the application workflow.
 
 ## There are a few functions within my Graph class that throw exceptions. Am I allowed to add a throws clause to the method signature in the Solution class?
-You can add throws clauses to the method declaration in the Solution class. Please note that exception handling may impact the performance of your program.
+You can add throws clauses to the method declaration in the Solution class. Please note that exception handling may impact the performance of your program if not implemented properly.
