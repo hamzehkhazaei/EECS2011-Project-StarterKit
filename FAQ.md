@@ -47,5 +47,5 @@ You can add throws clauses to the method declaration in the Solution class. Plea
 ## I want to ask if we found for example 3 different variations that have the same shortest time solution, is it enough for us just give one of them as a solution for p2.
 As mentioned in the sample output of Part 2, there might be multiple valid execution orders for functions. You just need to give one of them, and the judge system will check the correctness of your answer.
 
-## So if a function does not have an edge to an end node, but that function can reach the end node from an indirect way(meaning there is a path to the end node), in that case, is the graph that contains this function would be disconnected? Can we say that?
+## So if a function does not have an edge to the end node, but that function can reach the end node from an indirect way(meaning there is a path to the end node), in that case, is the graph that contains this function would be disconnected? Can we say that?
 Please read the second condition in the Part 1 description. When there is a path from f_x to f_y, it means f_y is reachable from f_x. Does this scenario satisfy the two conditions? If it does, then it is valid.
