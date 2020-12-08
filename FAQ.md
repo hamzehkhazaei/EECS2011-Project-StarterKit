@@ -1,5 +1,13 @@
 # Frequently Asked Questions
 
+## How should I zip my deliverables?
+You should submit one zip file with the name of mini project.zip including 2 files. The directory structure in project.zip should look like this:
+
+```
+│   source_code_your-student-id.zip
+│   final_report.pdf
+```
+
 ## How should I zip my source code?
 Zip your src directory (**include** the src folder). The directory structure in your source code zip file should look like this:
 
