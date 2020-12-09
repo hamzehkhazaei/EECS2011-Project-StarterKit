@@ -1,9 +1,10 @@
 # Frequently Asked Questions
 
 ## How should I zip my deliverables?
-You should submit one zip file with the name of mini project.zip including 2 files. The directory structure in project.zip should look like this:
+You should submit one zip file with the name of mini_project.zip including including a folder named mini_project. There should be 2 files in the mini_project folder. The directory structure in project.zip should look like this:
 
 ```
+mini_project
 │   source_code_your-student-id.zip
 │   final_report.pdf
 ```
