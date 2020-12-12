@@ -50,6 +50,9 @@ For each question and each input, the judge system will instantiate your Solutio
 ## I just want to ask that the constraint which says that the execution time for each part should be less than 10 seconds does that mean the value of the last outpur in part 2 and in all the part should be less than 10 seconds.
 The limit (10s, 256MB) is imposed on your program. Your code will be interrupted and marked as 0 if it goes beyond the limit. The 10s limit has nothing to do with the total execution time of the application workflow.
 
+## Please explain the memory limit for the project.
+Please note that this 256MB limit is for the amount of memory (i.e., RAM) that your program uses when being executed. It doesn't have anything to do with the size of your source code.
+
 ## There are a few functions within my Graph class that throw exceptions. Am I allowed to add a throws clause to the method signature in the Solution class?
 You can add throws clauses to the method declaration in the Solution class. Please note that exception handling may impact the performance of your program if not implemented properly.
 
@@ -70,3 +73,15 @@ Please note that your solution for part 4 has to make use of two machines when p
 
 ## And for part3, to make sure I am on the correct track, could one more example output's total execution time be given to us? Like the 100 valid input's total time is enough.
 For part 3, the last line of the sample output for valid_100 is 1323.
+
+## For part 3, the way I understood it is that we see how long it takes for each function to execute and then the final line is how long it takes for the longest function to execute until the end. Am I understanding how to calculate the final line correctly?
+
+According to the project description, the two space-separated integers in the output represent the name of the function and the time point when its execution begins.
+
+Take the sample output in Part 3 as an example. The first n lines mean:
+at t=0, the execution of f1 begins on the cluster;
+at t=295, the execution of f2 begins on the cluster;
+at t=124, the execution of f3 and f4 begins on the cluster;
+where t is the time since the cluster starts to execute the application.
+
+The last line of the output is the total execution time of the application. In other words, it is the time point when the execution of the last function in the application is completed on the cluster. In the Part 3 sample output, f2 was the last function completed, whose execution began at t=295 and ended at t=444. Therefore, the total execution time of the application is 444 ms. 
