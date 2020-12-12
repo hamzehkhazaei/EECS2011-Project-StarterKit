@@ -58,3 +58,15 @@ As mentioned in the sample output of Part 2, there might be multiple valid execu
 
 ## So if a function does not have an edge to the end node, but that function can reach the end node from an indirect way(meaning there is a path to the end node), in that case, is the graph that contains this function would be disconnected? Can we say that?
 Please read the second condition in the Part 1 description. When there is a path from f_x to f_y, it means f_y is reachable from f_x. Does this scenario satisfy the two conditions? If it does, then it is valid.
+
+## Can we get the output for part 2 and part 3 as well for valid_100 which was given to us.
+There might be numerous correct answers when n equals 100. It is very likely that your correct output does not match the sample output we give. Therefore, to be less confusing, we don't give the sample output for valid_100 for parts 2 and 3.
+
+## I understand there might be multiple outputs for part2-4 for multiple functions order, but there is only one total finish time for each part right? Cause we need to make the time as short as possible, so is it that only the shortest time will be counted as only correct answer, or it's okay for us to try to minimize the time but may not be the shortest?
+For part 2 and part 3, the total execution time in your answer has to be the minimum possible value; otherwise, it will be marked as an incorrect answer.
+
+For part 4, your solution does not need to give the minimum possible value in terms of the total execution time. We accept the answer that is not the shortest. But of course, shorter is better.
+Please note that your solution for part 4 has to make use of two machines when possible. That's to say, if you only use one machine, like part 2, no grade will be given.
+
+## And for part3, to make sure I am on the correct track, could one more example output's total execution time be given to us? Like the 100 valid input's total time is enough.
+For part 3, the last line of the sample output for valid_100 is 1323.
