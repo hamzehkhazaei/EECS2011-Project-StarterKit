@@ -4,7 +4,7 @@
 You should submit one zip file with the name of mini_project.zip including a folder named mini_project. There should be 2 files in the mini_project folder. The directory structure in project.zip should look like this:
 
 ```
-mini_project
+mini_project.zip
 │   source_code_your-student-id.zip
 │   final_report.pdf
 ```
